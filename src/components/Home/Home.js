@@ -72,7 +72,7 @@ export default function Home() {
           <Link to="contact" activeClass="active" smooth={true} spy={true}>
             <button>Me contacter</button>
           </Link>
-          <a href="%PUBLIC_URL%/CV.pdf" target="blank" className="text-gradient">
+          <a href="CV.pdf" target="blank" className="text-gradient">
             Télécharger mon CV
           </a>
         </motion.div>

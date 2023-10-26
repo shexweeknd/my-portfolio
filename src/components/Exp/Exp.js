@@ -27,7 +27,7 @@ export default function Exp() {
           developpement d'application.
         </h3>
         <button>
-          <a href="%PUBLIC_URL%/CV.pdf" target="blank">Voir mon CV</a>
+          <a href="CV.pdf" target="blank">Voir mon CV</a>
         </button>
         <img src={Experience} alt=""/>
       </motion.div>
