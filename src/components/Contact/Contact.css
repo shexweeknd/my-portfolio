@@ -1,0 +1,148 @@
+.contact {
+    display: flex;
+}
+
+.texte {
+    max-width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1;
+    text-align: left;
+    margin-bottom: 6rem;
+}
+
+.texte h4 {
+    --tw-text-opacity: 1;
+    color: rgb(184 9 195/var(--tw-text-opacity));
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.texte h2 {
+    font-size: 90px;
+    line-height: 1;
+    margin-bottom: 3rem;
+    font-weight: inherit;
+    color: white;
+    margin: 0
+}
+
+.formulaire {
+    min-height: 60%;
+    max-width: 40%;
+    margin-bottom: 6rem;
+    padding: 1.5rem;
+    border-width: 1px;
+    border-radius: 1rem;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1;
+    border: 1px solid white
+}
+
+.formulaire input {
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    background-color: initial;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+}
+
+.formulaire textarea {
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    background-color: initial;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+
+    resize: none;
+    margin-bottom: 3rem;
+}
+
+.formulaire input, textarea {
+    color: white;
+    opacity: 0.8;
+}
+
+.formulaire button {
+    width: fit-content;
+    cursor: pointer;
+    background: linear-gradient(92.23deg,#ff56f6 21.43%,#b936ee 50.63%,#3bace2 100%,#406aff 117.04%);
+    box-shadow: 0 4.42184px 107.23px rgba(255,86,246,.51);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 56px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+    --tw-text-opacity: 1;
+    border-radius: 9999px;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-weight: 500;
+    font-family: Orbitron;
+
+    transition: background 0.8s, box-shadow 0.8s, color 0.8s, background-color 0.8s;
+}
+
+.formulaire button:disabled {
+    background: #515357;
+    color: rgba(49, 46, 46, 0.741);
+}
+
+@media only screen and (max-width: 640px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texte {
+        font-size: .5em;
+        max-width: max-content;
+        margin-bottom: 1.5rem;
+    }
+
+    .texte h2 {
+        font-size: 5em;
+    }
+
+    .texte h4 {
+        text-align: center;
+    }
+
+    .formulaire {
+        align-items: center;
+        min-width: 70%;
+        margin-bottom: 160px;
+        position: static;
+    }
+
+    .formulaire button {
+        align-self: center;
+    }
+}
+
+/* errors of validations */
+.error-message {
+    text-align: left;
+    color: red;
+    margin: 0;
+    font-size: 0.7em;
+    margin-bottom: 0.8em;
+}

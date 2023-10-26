@@ -1,0 +1,117 @@
+.exp {
+    display: flex;
+}
+
+.exp h2 {
+    font-size: 32px;
+    font-family: Orbitron;
+    --tw-text-opacity: 1;
+    color: rgb(184 9 195/var(--tw-text-opacity));
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.exp h3 {
+    max-width: 455px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #ffff;
+}
+
+.exp button {
+    cursor: pointer;
+    background: linear-gradient(92.23deg,#ff56f6 21.43%,#b936ee 50.63%,#3bace2 100%,#406aff 117.04%);
+    box-shadow: 0 4.42184px 107.23px rgba(255,86,246,.51);
+    font-size: .875rem;
+    height: 48px;
+    line-height: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    --tw-text-opacity: 1;
+    border-radius: 9999px;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-family: Orbitron;
+    font-weight: 500;
+
+    position: absolute;
+    z-index: 50;
+}
+
+.text-image {
+    max-width: 40%;
+    max-height: 100vh;
+    min-height: 100vh;
+    text-align: left;
+}
+
+.text-image img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.services {
+    display: flex;
+    max-width: 30vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    flex: 1 1;
+    text-align: left;
+    justify-content: center;
+}
+
+.services h4 {
+    letter-spacing: .05em;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #ffff;
+}
+
+.services .exp-element p {
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 960px) {
+    .exp {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .exp {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exp h2 {
+        text-align: center
+    }
+
+    .text-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: unset;
+    }
+
+    .text-image h3 {
+        display: none;
+    }
+
+    .text-image button {
+        position: relative;
+    }
+
+    .text-image img {
+        display: none;
+    }
+
+    .services {
+        max-width: 90%;
+        min-height: unset;
+    }
+}

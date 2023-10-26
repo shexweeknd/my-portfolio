@@ -1,0 +1,17 @@
+.notification {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 50;
+    position: fixed;
+}
+
+@media only screen and (max-width: 640px) {
+    .notification {
+        bottom : 7rem;
+        margin-inline: auto;
+    }
+}
