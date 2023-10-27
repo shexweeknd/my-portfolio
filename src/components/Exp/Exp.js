@@ -51,7 +51,7 @@ export default function Exp() {
                 className="exp-element"
                 key={index}
               >
-                <div style={{maxWidth: "476px"}}>
+                <div className='text-content' style={{maxWidth: "476px"}}>
                   <h4>
                     {name}
                   </h4>

@@ -24,7 +24,7 @@
 }
 
 .texte h2 {
-    font-size: 90px;
+    font-size: 3.5rem;
     line-height: 1;
     margin-bottom: 3rem;
     font-weight: inherit;
@@ -118,12 +118,12 @@
         margin-bottom: 1.5rem;
     }
 
-    .texte h2 {
-        font-size: 5em;
-    }
-
     .texte h4 {
         text-align: center;
+    }
+
+    .contact .texte h2 {
+        display: none;
     }
 
     .formulaire {
@@ -135,6 +135,45 @@
 
     .formulaire button {
         align-self: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .texte {
+        margin-bottom: 2rem;
+    }
+
+    .contact .texte h4 {
+        font-size: 32px;
+    }
+
+    .formulaire {
+        align-items: center;
+        min-width: 70%;
+        margin-bottom: 160px;
+        position: static;
+    }
+
+    .formulaire input {
+        width: 80%;
+        height: 4%;
+    }
+
+    .formulaire textarea {
+        width: 80%;
+        height: 15%;
+    }
+}
+
+@media only screen and (min-height: 1024px) {
+    .texte {
+        min-width: 70%;
+        justify-content: center;
     }
 }
 

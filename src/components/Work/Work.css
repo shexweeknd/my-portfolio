@@ -98,7 +98,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        overflow: auto
+        overflow-y: auto
     }
 
     .carousel-container {
@@ -113,5 +113,26 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-height: 760px) {
+    .work {
+        height: 150vh;
+    }
+
+    .work-details {
+        align-items: center;
+    }
+
+    .work-details .icon-container {
+        max-width: 75%;
+        padding: 0;
+        overflow-x: auto;
+    }
+
+    .work-details .icon-container img {
+        max-width: 30px;
+        max-height: 30px;
     }
 }
