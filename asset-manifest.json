@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.47cd5a0a.css",
-    "main.js": "/my-portfolio/static/js/main.9b2740a4.js",
+    "main.css": "/my-portfolio/static/css/main.f1238f20.css",
+    "main.js": "/my-portfolio/static/js/main.b14b0d74.js",
     "static/media/avatar.svg": "/my-portfolio/static/media/avatar.ec531511746f4cb7358ff951a0af0cce.svg",
     "static/media/work1.png": "/my-portfolio/static/media/work1.5237cd17006c69976ca9.png",
     "static/media/bio.png": "/my-portfolio/static/media/bio.d29e38f28617cbe70b15.png",
-    "static/media/site-bg.jpg": "/my-portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/work3.png": "/my-portfolio/static/media/work3.00f1348571c28d424224.png",
     "static/media/work2.png": "/my-portfolio/static/media/work2.891173354079c0845d25.png",
     "static/media/Linux.png": "/my-portfolio/static/media/Linux.29353b79cfc389275045.png",
@@ -15,13 +14,14 @@
     "static/media/Socket-io.png": "/my-portfolio/static/media/Socket-io.39d7dd2aaef12a3c0935.png",
     "static/media/Node.js.png": "/my-portfolio/static/media/Node.js.c6649cb118c1ede849ad.png",
     "static/media/C++.png": "/my-portfolio/static/media/C++.9de9df950e692f5576c1.png",
+    "static/media/Docker.png": "/my-portfolio/static/media/Docker.636d0d8b02074e53faaa.png",
     "static/media/QT5.svg": "/my-portfolio/static/media/QT5.aac90167d00b9f56b9c0338076610b47.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.47cd5a0a.css.map": "/my-portfolio/static/css/main.47cd5a0a.css.map",
-    "main.9b2740a4.js.map": "/my-portfolio/static/js/main.9b2740a4.js.map"
+    "main.f1238f20.css.map": "/my-portfolio/static/css/main.f1238f20.css.map",
+    "main.b14b0d74.js.map": "/my-portfolio/static/js/main.b14b0d74.js.map"
   },
   "entrypoints": [
-    "static/css/main.47cd5a0a.css",
-    "static/js/main.9b2740a4.js"
+    "static/css/main.f1238f20.css",
+    "static/js/main.b14b0d74.js"
   ]
 }
