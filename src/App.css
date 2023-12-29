@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  background-image: url("./assets/bg/site-bg.jpg");
+  /* background-image: url("./assets/bg/color4.jpeg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover; */
+  background-image: linear-gradient(160deg, rgb(27, 27, 80), rgb(206, 98, 206), rgb(44, 44, 147), red);
 }
 
 h1 {

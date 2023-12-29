@@ -37,6 +37,8 @@ export default function Home() {
             sequence={[
               "Developpement Web.",
               2000,
+              "DevOps.",
+              2000,
               "Hacking éthique & Pentesting.",
               2000,
               "Technique des Réseaux.",

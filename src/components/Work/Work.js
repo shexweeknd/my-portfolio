@@ -8,6 +8,7 @@ import Socketio from "../../assets/icons/Socket-io.png";
 import Kivymd from "../../assets/icons/kivymd.png";
 import Qt5 from "../../assets/icons/QT5.svg";
 import Linux from "../../assets/icons/Linux.png";
+import Docker from "../../assets/icons/Docker.png";
 import C from "../../assets/icons/C++.png";
 import Python from "../../assets/icons/Python.png";
 import JavaScript from "../../assets/icons/JavaScript.png";
@@ -60,6 +61,7 @@ export default function Work() {
           <img src={Kivymd} />
           <img src={Qt5} />
           <img src={Linux} />
+          <img src={Docker} />
         </div>
       </motion.div>
 

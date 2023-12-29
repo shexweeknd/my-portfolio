@@ -76,7 +76,7 @@ export default function Contact() {
           </h4>
           <h2>
             Travaillons <br />
-            enxemble!
+            ensemble!
           </h2>
         </div>
       </motion.div>
