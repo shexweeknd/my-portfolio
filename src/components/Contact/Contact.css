@@ -17,8 +17,8 @@
     color: rgb(184 9 195/var(--tw-text-opacity));
     letter-spacing: .025em;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.25rem;
+    font-weight: bold;
+    font-size: 32px;
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }

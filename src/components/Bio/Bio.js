@@ -33,17 +33,17 @@ export default function Bio() {
           Ecole Supérieure Polytechnique d'Antsiranana.
         </h3>
         <p>
-          J'ai intégré l'ESP Antsiranana depuis 2020, et j'ai obtenu ma licence en 2023, mon parcours se base sur
+          J'ai intégré l'ESP Antsiranana depuis l'an 2020, et ai obtenu ma licence en 2023, mon parcours se base sur
           l'Electronique Informatique et la Technologie <strong>(EIT)</strong>.
           <br />
-          Mes points fort résident dans :<br />
+          Ma formation s'appuie sur :<br />
           <em>- les réseaux Informatiques</em>
           <br />
-          <em>- les systèmes d'exploitation</em>
+          <em>- les systèmes d'exploitation Linux</em>
           <br />
           <em>- le developpement d'applications multiplateforme</em>
           <br />
-          <em>- ...</em>
+          <em>- l'électronique numérique et analogique</em>
           <br />
         </p>
 
@@ -51,18 +51,19 @@ export default function Bio() {
           Ecole 42 - Antananarivo
         </h3>
         <p>
-          J'apprécie vivement le système pédagogique proposé par l'école 42, j'ai intégré l'école par passion pour mes disciplines antérieures reçu dans l'ESP Antsiranana.
+          J'apprécie vivement le système pédagogique proposé par l'école 42, j'ai intégré l'école par passion pour mes disciplines antérieures reçu à l'ESP Antsiranana.
           <br />
-          J'ai décidé d'intégrer cette école pour :<br />
-          <em>- perfectionner mes acquis dans le développement</em>
+          Intégrer le campus 42 Antananarivo me permet de :<br />
+          <em>- perfectionner mes acquis en programmation</em>
           <br />
           <em>- savoir travailler en équipe éfficacement</em>
           <br />
           <em>- perfectionner mon sens du relationnel</em>
           <br />
+          <em>- améliorer mon sens de la discipline et de rigueur</em>
         </p>
         <p>
-          J'ai actuelement 22 ans et suis à la recherche d'une opportunité pour
+          J'ai actuelement 22 ans et je suis à la recherche d'une opportunité pour
           investir mes talents dans le monde evolutif de <em>l'IT</em>.
         </p>
         

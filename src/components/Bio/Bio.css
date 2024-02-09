@@ -32,19 +32,24 @@
     margin-top: 1rem;
     font-size: 32px;
     text-transform: uppercase;
-    font-weight: inherit;
-    --tw-text-opacity: 1;
-    color: rgb(184 9 195/var(--tw-text-opacity));
+    font-weight: bold;
+    --tw-text-opacity: 2;
+    color: #6600a5;
 }
 
 .details h3 {
+    --tw-gradient-from: #000000;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #42a6e3;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    color: transparent;
     font-family: Orbitron;
     margin-bottom: 1.5rem;
     margin-bottom: 1rem;
     font-size: 26px;
     font-weight: 600;
     line-height: 46px;
-    color: #ffff;
 }
 
 .details p {
@@ -56,7 +61,7 @@
 .details em {
     --tw-gradient-from: #42a6e3;
     --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
-    --tw-gradient-to: #ff56f6;
+    --tw-gradient-to: #56f4ff;
     -webkit-background-clip: text;
     background-image: linear-gradient(to right,var(--tw-gradient-stops));
     color: transparent;

@@ -70,7 +70,12 @@
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 1rem;
-    color: #ffff;
+    --tw-gradient-from: #000000;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #6600a5;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    color: transparent;
 }
 
 .services .exp-element p {

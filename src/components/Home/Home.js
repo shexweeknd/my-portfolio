@@ -37,14 +37,16 @@ export default function Home() {
             sequence={[
               "Developpement Web.",
               2000,
-              "DevOps.",
+              "Conteneurisation Docker.",
               2000,
               "Hacking éthique & Pentesting.",
               2000,
               "Technique des Réseaux.",
               2000,
-              "Administration SE Linux.",
+              "Administration Système Linux.",
               2000,
+              "Programmation avancé bas niveau.",
+              2000
             ]}
             speed={50}
             className="text-accent"

@@ -15,8 +15,8 @@ export const services = [
     link: 'En savoir plus',
   },
   {
-    name: 'Hacking et Sécurité',
-    description: "Je suis également un grand passionné de Hacking et Cybersécurité, je m'entraine régulièrement sur la plateforme HackTheBox depuis ma deuxième année.",
+    name: 'Programmation avancé de bas niveau',
+    description: "Ayant un cursus intensif à 42 Antananarivo, j'ai également acquis des compétences dans la programmation avancée dans le langage C.",
     link: 'En savoir plus',
   }
 ];
