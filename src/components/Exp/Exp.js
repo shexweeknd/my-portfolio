@@ -26,9 +26,6 @@ export default function Exp() {
           Etant polyvalent, je travaille généralement sur les réseaux et le
           developpement d'application.
         </h3>
-        <button>
-          <a href="CV.pdf" target="blank">Voir mon CV</a>
-        </button>
         <img src={Experience} alt=""/>
       </motion.div>
 

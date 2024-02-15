@@ -1,5 +1,6 @@
 .exp {
     display: flex;
+    min-height: 100vh;
 }
 
 .exp h2 {
@@ -55,7 +56,6 @@
     display: flex;
     max-width: 30vw;
     min-height: 100vh;
-    max-height: 100vh;
     flex: 1 1;
     text-align: left;
     justify-content: center;
@@ -127,7 +127,7 @@
 @media only screen and (max-height: 700px) {
     .exp {
         height: 150vh;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .text-image {
@@ -148,5 +148,11 @@
 
     .services p {
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .exp {
+        min-height: 150vh;
     }
 }
